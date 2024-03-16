@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cards{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  text-align: center;
+  /* background-color: aqua; */
 }
 
-.App-link {
-  color: #61dafb;
+#carte{
+  width: 270px;
+  height: 310px; 
+  background-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#carte:hover{
+  cursor: pointer;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+
+
+.img{
+  width: 200px;
+  height:170px;
+  margin-left: 0px;
+  background-image:none;
+
+}
+.nav{
+  /* margin-top: 10px; */
+  margin-left: -100px;
+  background: orange;
+  position: sticky;
+
+}
+
+.bg-body-tertiary{
+  width: 100px;
+  /* background-color: aqua; */
+}
+.d-flex{
+  margin-left: 300px;
+}
+.me-2{
+  width: 400px;
+}
+
+.name{
+  font-size: 25px;
+  margin-left: 120px;
+}
+
+#eshop{
+  font-size: 30px;
+  margin-left: 10px;
+
+}
+
+#linecard{
+  font-size: 30px;
+  margin-left: 300px;
+  color:black;
+  margin-top: 10px ;
+}
+
+#basic-nav-dropdown{
+  position: absolute;
+  margin-left: 120px;
+  color: black;
+}
+h4{
+  margin-top: 8px;
+}
+
+#dropdown{
+  /* margin-left: 170px; */
+  width: 15px;
+  height: 15px;
 }
